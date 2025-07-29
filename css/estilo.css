@@ -35,3 +35,99 @@
 
 /* NÃO ALTERE DAQUI PRA CIMA */
 /* ESCREVA SEU CÓDIGO ABAIXO */
+
+
+#layout {
+    margin: 20px;
+      font-family: sans-serif;
+      }
+
+ /* ---------- Layout 1 ---------- */
+      header, footer {
+        background: #555;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        text-align: center;
+     }
+
+        .main {
+         display: flex;
+         background: #999;
+     }
+
+       .menu {
+          flex: 1;
+         padding: 10px;
+         background: #aaa;
+     }
+
+     .menu-items button {
+         margin: 4px;
+         padding: 4px 10px;
+     }
+
+     .content {
+       flex: 2;
+       padding: 10px;
+       background: #bbb;
+    }
+
+      .ads {
+       flex: 1;
+       padding: 10px;
+       background: #ccc;
+     }
+
+/* ---------- Layout 2 (Tabuleiro) ---------- */
+     .layout-03 .grid {
+      display: flex;
+      flex-wrap: wrap;
+      width: 320px;
+      height: 320px;
+      margin: 20px auto;
+    }
+
+    .layout-03 .grid div {
+      width: 40px;
+      height: 40px;
+    }
+
+    .light {
+      background-color: #aaa;
+    }
+
+    .dark {
+      background-color: #666;
+    }
+
+    /* ---------- Layout 3 (Cards) ---------- */
+   .top-menu {
+      background: #555;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+   }
+
+   .top-menu button {
+      padding: 8px 16px;
+   }
+
+   .cards {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px 0;
+   }
+
+    .card {
+      background: #ccc;
+      padding: 20px;
+      width: 25%;
+   }
+
+    .card-footer {
+      background: #555;
+      padding: 20px;
+      text-align: center;
+      color: white;
+}
